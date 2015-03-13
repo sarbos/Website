@@ -1,6 +1,6 @@
 body
 {
-    background-color: #1F1F1F;
+    background-color: #646464;
     margin: 0;
 }
 
@@ -8,14 +8,14 @@ a
 {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    color: #DEDFE0;
+    color: #363639;
     font-size: 1.5em;
 }
 
 a:hover
 {
     text-decoration: bold;
-    color: #9769AD;
+    color: #5A2B82;
 }
 
 img
@@ -27,7 +27,7 @@ img
 
 #container
 {
-    background-color: #363639;
+    background-color: #CFCECE;
     width: 100%;
     height: 400px;
     margin-top: 200px;
