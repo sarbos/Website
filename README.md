@@ -1,4 +1,3 @@
-The HackRPI Website
+The Ilium VR Website
 ============
 
-Our website is open-source! #hellyeah
