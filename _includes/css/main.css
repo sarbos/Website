@@ -1,6 +1,7 @@
 #logo
 {
-    height: 300px;
+    max-height: 300px;
+    max-width: 100%;
     padding-top: 50px;
     padding-bottom: 70px;
 }
