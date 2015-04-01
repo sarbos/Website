@@ -1,11 +1,9 @@
-#logo
-{
+#logo {
     max-height: 300px;
     max-width: 100%;
     padding-top: 50px;
     padding-bottom: 70px;
 }
-
 #icon {
 	display: inline;
 	height: 25px;
