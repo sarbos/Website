@@ -7,7 +7,7 @@
 		</div>
         <div class="row">
         	<div class="col-xs-12">
-        		<p> In vitae erat purus. Donec pulvinar magna enim, nec accumsan odio iaculis ac. Donec eu eros dapibus, convallis tellus vel, congue risus. Nunc vulputate libero non molestie sollicitudin. Maecenas suscipit non sem id vestibulum. Vivamus scelerisque interdum odio eget ornare. Integer in mi maximus, porta purus sed, blandit libero. Pellentesque eget odio purus. Nam vitae ante nisi. Donec vel quam ultricies, dictum nisl at, feugiat enim.</p>
+        		<p> Our Team consists of three Computer science students from RPI. We have worked together for multiple years on many different successful projects. We have spent the last few years making advanced projects at hackathons and for research. Between us we have backgrounds in Mathematics, Machine vision, computer architecture, game design and development, embedded software and hardware, and robotics. We have each worked for successful startups such as Apprenda, Vital Vio and Nest Labs. Now we are putting our skills together to try to make an impact on virtual reality.</p>
         	</div>
             {% for member in site.people %}
             <div class="col-xs-4">
@@ -15,7 +15,9 @@
                 	<img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle headshot" alt="">
                 	<h4>{{ member.name }}</h4>
                 	<p class="text-muted">{{ member.position }}</p>
-                	<p>{{ member.blurb }}</p>
+                	<!-- BLURBS ARE NOT AVAILABLE YET
+                    <p>{{ member.blurb }}</p>
+                    -->
                 </div>
             </div>
             {% endfor %}
