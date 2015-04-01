@@ -33,16 +33,16 @@ permalink: pretty
 # Team names, titles and social links
 people:
 - name: Robert Rouhani
-  pic: 1
+  pic: 1-min
   position: "CTO"
   blurb: "Curabitur id sapien sodales, fringilla enim ornare, venenatis augue. Donec elementum vitae mi ac egestas. Sed eu neque non sem interdum viverra. Mauris quis sem nec mi dignissim tincidunt. In augue mi, suscipit non mi ut, accumsan tempor nulla. "
 
 - name: Sebastian Sarbora
-  pic: 2
+  pic: 2-min
   position: "CEO"
   blurb: "Aliquam erat volutpat. Praesent suscipit ipsum et nisl rutrum, sit amet accumsan arcu blandit. Sed ac efficitur mauris, at ultrices augue. Cras sed mattis massa. Nam gravida, arcu quis aliquam vulputate, quam nisi viverra velit, sit amet congue nibh ex ut massa."
 
 - name: Jazmine Olinger
-  pic: 3
+  pic: 3-min
   position: "COO"
   blurb: "Integer dictum elit eget commodo semper. Vestibulum et nisi eget velit aliquam hendrerit ac sed erat. Morbi pretium eget nisi sit amet commodo. Aliquam commodo ante magna, sed laoreet turpis cursus a."
