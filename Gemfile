@@ -1,6 +1,10 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-# gem "rails"
-source :rubygems
-gem 'rack'
+ruby '2.1.2'
+gem 'jekyll'
+gem 'kramdown'
+gem 'rack-jekyll'
+gem 'rake'
+gem 'puma'
+
