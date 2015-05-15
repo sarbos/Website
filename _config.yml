@@ -1,0 +1,48 @@
+# Site settings
+title: "Ilium VR"
+email: info@iliumvr.com
+url: https://illiumvr.com
+baseurl: ""
+description: "The Official Website for Ilium VR"
+
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile', 'README.md', '.gitignore']
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  primary-medium: '#363639'
+  primary-light: '#ffffff'
+  secondary-light: '#eeeeee'
+  accent-color: '#5b2c83'
+
+# Footer settings
+footer: Ilium VR
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/iliumvr
+  - title: facebook
+    url: https://www.facebook.com/pages/Ilium-VR/1571378166470461
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Team names, titles and social links
+people:
+- name: Robert Rouhani
+  pic: 1-min
+  position: "CTO"
+  blurb: "Curabitur id sapien sodales, fringilla enim ornare, venenatis augue. Donec elementum vitae mi ac egestas. Sed eu neque non sem interdum viverra. Mauris quis sem nec mi dignissim tincidunt. In augue mi, suscipit non mi ut, accumsan tempor nulla. "
+
+- name: Sebastian Sarbora
+  pic: 2-min
+  position: "CEO"
+  blurb: "Aliquam erat volutpat. Praesent suscipit ipsum et nisl rutrum, sit amet accumsan arcu blandit. Sed ac efficitur mauris, at ultrices augue. Cras sed mattis massa. Nam gravida, arcu quis aliquam vulputate, quam nisi viverra velit, sit amet congue nibh ex ut massa."
+
+- name: Jazmine Olinger
+  pic: 3-min
+  position: "COO"
+  blurb: "Integer dictum elit eget commodo semper. Vestibulum et nisi eget velit aliquam hendrerit ac sed erat. Morbi pretium eget nisi sit amet commodo. Aliquam commodo ante magna, sed laoreet turpis cursus a."
