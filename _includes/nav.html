@@ -16,20 +16,13 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="/#page-top"></a>
                     </li>
+                    {% for link in page.nav %}
                     <li>
-                        <a class="page-scroll" href="#product">Product</a>
+                        <a class="{% if link.page-scroll %}page-scroll{% endif %}" href="{{ link.url }}">{{ link.title }}</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#timeline">Timeline</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

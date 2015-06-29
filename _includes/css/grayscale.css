@@ -57,8 +57,8 @@ p {
 a {
     color: {{ site.color.accent-color }};
     -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
 }
 
 a:hover,
@@ -109,8 +109,8 @@ a:focus {
 
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+       -moz-transition: background .3s ease-in-out;
+            transition: background .3s ease-in-out;
 }
 
 .navbar-custom .nav li a:hover,
@@ -124,11 +124,11 @@ a:focus {
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
         background: 0 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+           -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+                transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
 
     .top-nav-collapse {
@@ -151,9 +151,9 @@ a:focus {
     background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .intro .intro-body {
@@ -161,7 +161,7 @@ a:focus {
     vertical-align: middle;
 }
 
-.intro .intro-body .brand-heading {
+.intro .intro-body .intro-heading {
     font-size: 40px;
 }
 
@@ -175,12 +175,53 @@ a:focus {
         padding: 0;
     }
 
-    .intro .intro-body .brand-heading {
+    .intro .intro-body .intro-heading {
         font-size: 100px;
     }
 
     .intro .intro-body .intro-text {
         font-size: 25px;
+    }
+}
+
+.intro-slim {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 150px 0 100px 0;
+    text-align: left;
+    color: #fff;
+    background: url(/img/intro-bg.jpg) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+.intro-slim .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro-slim .intro-body .intro-heading {
+    font-size: 90px;
+}
+
+.intro-slim .intro-body .intro-text {
+    font-size: 18px;
+}
+
+@media(min-width:767px) {
+    .intro-slim {
+        padding: 190px 0 100px 0;
+    }
+    
+    .intro-slim .intro-body .intro-heading {
+        font-size: 100px;
+    }
+    
+    .intro-slim .intro-body .intro-text {
     }
 }
 
@@ -215,46 +256,46 @@ a:focus {
 
 .btn-circle:hover i.animated {
     -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
+       -moz-animation-name: pulse;
     -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
+       -moz-animation-duration: 1.5s;
     -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
+       -moz-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
+       -moz-animation-timing-function: linear;
 }
 
 @-webkit-keyframes pulse {    
     0 {
         -webkit-transform: scale(1);
-        transform: scale(1);
+                transform: scale(1);
     }
 
     50% {
         -webkit-transform: scale(1.2);
-        transform: scale(1.2);
+                transform: scale(1.2);
     }
 
     100% {
         -webkit-transform: scale(1);
-        transform: scale(1);
+                transform: scale(1);
     }
 }
 
 @-moz-keyframes pulse {    
     0 {
         -moz-transform: scale(1);
-        transform: scale(1);
+             transform: scale(1);
     }
 
     50% {
         -moz-transform: scale(1.2);
-        transform: scale(1.2);
+             transform: scale(1.2);
     }
 
     100% {
         -moz-transform: scale(1);
-        transform: scale(1);
+             transform: scale(1);
     }
 }
 
@@ -284,8 +325,8 @@ a:focus {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+       -moz-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
 }
 
 .btn-default {
@@ -338,14 +379,12 @@ footer p {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: rgba(91, 44, 131, .4);
 }
 
 ::selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: rgba(91, 44, 131, .4);
 }
 
 img::selection {
@@ -357,5 +396,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
+    webkit-tap-highlight-color: rgba(91, 44, 131,.4);
 }

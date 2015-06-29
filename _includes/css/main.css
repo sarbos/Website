@@ -16,6 +16,25 @@
 	padding-bottom:50px;
 }
 
+/* HACK separate css files*/
+#internships {
+    padding-bottom:100px;
+}
+
+#developers-teaser {
+    height: 70%;
+}
+
+#developers-teaser h1 {
+    margin: 30% 0 0 0;
+}
+
+@media(min-width:768px) {
+    #developers-teaser h1 {
+        margin: 20% 0 0 0;
+    }
+}
+
 .headshot {
 	width: 75%;
 	margin: 0 auto 30px;

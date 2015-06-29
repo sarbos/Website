@@ -6,7 +6,7 @@ baseurl: ""
 description: "The Official Website for Ilium VR"
 
 gems: ['kramdown']
-exclude: ['Gemfile', 'Gemfile.lock', 'vendor', 'README.md', '.gitignore', '.deployment', 'web.config']
+exclude: ['Gemfile', 'Gemfile.lock', 'vendor', 'README.md', '.gitignore', '.deployment']
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -16,6 +16,8 @@ color:
   secondary-light: '#eeeeee'
   accent-color: '#5b2c83'
 
+# Nav settings
+  
 # Footer settings
 footer: Ilium VR
 

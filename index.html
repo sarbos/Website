@@ -1,3 +1,173 @@
 ---
 layout: default
+nav:
+ - title: Product
+   url: '#product'
+   page-scroll: yes
+ - title: Team
+   url: '#team'
+   page-scroll: yes
+ - title: Timeline
+   url: '#timeline'
+   page-scroll: yes
+ - title: Contact
+   url: '#contact'
+   page-scroll: yes
+ - title: Jobs
+   url: '/jobs'
+ - title: Developers
+   url: '/developers'
 ---
+<!-- Intro Header -->
+<header class="intro">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2" id="banner">
+                    <img src="../img/logo.png" id="logo"/>
+                    <p class="intro-text">Putting the virtual world in your hands.</p>
+                    <a href="#product" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- About Product Section -->
+<section id="product" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>About the Product</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <p>At Ilium VR we are creating a rifle controller for virtual reality shooter games. Our main innovation is the software and hardware technology used to precisely track the motion and 3D position of the controller. We have taken that technology and integrated it into a rifle body. The controller has many immersive features such as reloading, slide action, recoil, and accurate aiming. We are developing a software development kit (SDK) to allow easy integration with a variety of games and game engines. Ts will enable our controller to be used with both existing and future games. The overally experience that our controller provides is incredibly realistic and immersive, taking your gaming experience to the next level.</p>
+            <h4>Our vision for the future</h4>
+            <p>The rifle controller is just our first step. We plan to develop a whole line of controllers products, including pistols, shotguns, snipers, swords, daggers, and more. Any weapon or tool you can imagine being used in a game or simulation could become a part of our controller line. This technology has applications in many different industries beyond consumer gaming. In the future we could develop technology for a wide variety of industry training, such as helping surgeons practice to increase the rate of successful surgeries, creating a safer virtual environment for firefighters to train in, or creating simulations to help police recruits learn how to accurately assess and handle situations in the line of duty. </p>
+        </div>
+    </div> 
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h3>Prototype</h3>
+        </div>
+        <div class="col-xs-12">
+            <img class="img-responsive" src="../img/product.png"/>
+        </div>
+    </div>
+</section>
+
+<!-- About Team Section -->
+<section id="team" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Meet the Team</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <p> Our team consists of three computer science students from RPI. We have worked together for multiple years on many different successful projects. We have spent the last few years making advanced projects at hackathons and for research. Between us we have backgrounds in mathematics, machine vision, computer architecture, game design and development, embedded software and hardware, and robotics. We have each worked for successful startups such as Apprenda, Vital Vio and Nest Labs. Now we are putting our skills together to try to make an impact on virtual reality.</p>
+        </div>
+        {% for member in site.people %}
+        <div class="col-sm-4">
+            <div class="team-member">
+                <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle headshot" alt="">
+                <h4>{{ member.name }}</h4>
+                <p class="text-muted">{{ member.position }}</p>
+                <!-- BLURBS ARE NOT AVAILABLE YET
+                <p>{{ member.blurb }}</p>
+                -->
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Timeline section -->
+<section id="timeline" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Timeline</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="img/timeline/1.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>January 2014</h4>
+                                <h4 class="subheading">HackTech</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">We initially developed the tracking technology behind the product at HackTech 2014, a 1200 person hackathon in California in which we were selected as one of the top ten projects. The product was unrelated but we kept the tracking technology we developed and applied it to our rifle initially.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="img/timeline/2.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>April 2014</h4>
+                                <h4 class="subheading">HackRU</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">At HackRU Spring 2014 we developed the initial prototype of the gun, completing most of the hardware and electrical work and a good portion of our initial software.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="img/timeline/3.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>February 2015</h4>
+                                <h4 class="subheading">RPI Business Model Competition</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">In February we won 3rd place overall in the Rensselaer Business Model Competition and also took home the Intellectual Property Award from Heslin Rothenberg, Farley & Mesiti. This was our first competition as Ilium VR.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="img/timeline/4.png" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>July 2015</h4>
+                                <h4 class="subheading">REVEAL Accelerator</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">In July we will be participating in the inaugural class of the REVEAL accelerator, run by Rensselaer's Emerging Venture Ecosystem. During REVEAL we will complete the final stages of our prototyping and prepare for manufacturing.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="img/timeline/5.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>August 2015</h4>
+                                <h4 class="subheading">Kickstarter</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">We will then be launching a Kickstarter campaign in August for fundraising, marketing, and outreach purposes. Kickstarter is responsible for launching many video game and VR products into success, and because of that we are firmly confident that it is the perfect platform for our needs.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</section>
+
+{% include contact.html %}
