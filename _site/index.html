@@ -9,7 +9,7 @@
     <link rel="canonical" href="https://illiumvr.com/">
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon/"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon/"/>
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="/style.css">
@@ -36,7 +36,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <img id="icon" src="../img/icon.png"/>
+                    <img id="icon" src="/img/icon.png"/>
                     <span class="light">Ilium</span> VR
                 </a>
             </div>
@@ -66,11 +66,7 @@
                     </li>
                     
                     <li>
-                        <a class="" href="/jobs">Jobs</a>
-                    </li>
-                    
-                    <li>
-                        <a class="" href="/developers">Developers</a>
+                        <a class="" href="news">News</a>
                     </li>
                     
                 </ul>
@@ -132,7 +128,7 @@
             <p> Our team consists of three computer science students from RPI. We have worked together for multiple years on many different successful projects. We have spent the last few years making advanced projects at hackathons and for research. Between us we have backgrounds in mathematics, machine vision, computer architecture, game design and development, embedded software and hardware, and robotics. We have each worked for successful startups such as Apprenda, Vital Vio and Nest Labs. Now we are putting our skills together to try to make an impact on virtual reality.</p>
         </div>
         
-        <div class="col-sm-4">
+        <div class="col-xs-4">
             <div class="team-member">
                 <img src="img/team/1-min.jpg" class="img-responsive img-circle headshot" alt="">
                 <h4>Robert Rouhani</h4>
@@ -143,7 +139,7 @@
             </div>
         </div>
         
-        <div class="col-sm-4">
+        <div class="col-xs-4">
             <div class="team-member">
                 <img src="img/team/2-min.jpg" class="img-responsive img-circle headshot" alt="">
                 <h4>Sebastian Sarbora</h4>
@@ -154,7 +150,7 @@
             </div>
         </div>
         
-        <div class="col-sm-4">
+        <div class="col-xs-4">
             <div class="team-member">
                 <img src="img/team/3-min.jpg" class="img-responsive img-circle headshot" alt="">
                 <h4>Jazmine Olinger</h4>
@@ -259,22 +255,69 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
-                <p><a href="mailto:info@iliumvr.com">info@iliumvr.com</a>
-                </p>
+                <button id="mailing-list-button" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#mailing-list-modal">
+                    Subscribe to our newsletter
+                </button>
                 <ul class="list-inline banner-social-buttons">
+                    
+                    <li>
+                        <a href="https://www.facebook.com/pages/Ilium-VR/1571378166470461" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
+                    </li>
                     
                     <li>
                         <a href="https://twitter.com/iliumvr" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://www.facebook.com/pages/Ilium-VR/1571378166470461" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
+                        <a href="mailto:info@iliumvr.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">EMail</span></a>
                     </li>
                     
                 </ul>
             </div>
         </div>
     </section>
+    
+    <!-- Mailing list modal -->
+    <div class="modal fade" id="mailing-list-modal" tabindex="-1" role="dialog" aria-labelledby="mailing-list-modal-label">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form action="//iliumvr.us11.list-manage.com/subscribe/post?u=5caf0adc1dea00653c0b947a3&amp;id=cb2c97367e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="mailing-list-modal-label">Subscribe to our newsletter</h4>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Begin MailChimp Signup Form -->
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <input type="email" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <input type="text" placeholder="First Name (optional)" value="" name="FNAME" class="" id="mce-FNAME">
+                            </div>
+                            <div class="col-xs-6">
+                                <input type="text" placeholder="Last Name (optional)" value="" name="LNAME" class="" id="mce-LNAME">
+                            </div>
+                        </div>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;"><input type="text" name="b_5caf0adc1dea00653c0b947a3_cb2c97367e" tabindex="-1" value=""></div>
+                        <div class="clear"></div>
+                        <!--End mc_embed_signup-->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+                        <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
         <!-- Footer -->
 <div class="secondary-content">
@@ -293,9 +336,7 @@
 
     <!-- Plugin JavaScript -->
     <script src="/js/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+    <script src="/js/jquery.placeholder.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="/js/grayscale.js"></script>

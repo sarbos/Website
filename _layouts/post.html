@@ -1,0 +1,30 @@
+---
+layout: default
+nav-logo-url: '/'
+nav:
+ - title: Home
+   url: '/'
+ - title: News
+   url: '/news'
+---
+
+<!-- Intro Header -->
+<header class="intro-slim">
+    <div class="intro-body">
+        <div class="container">
+            {% if page.id %}
+            <p class="intro-heading">{{ page.title }}</p>
+            {% else %}
+            <p class="intro-heading">News</p>
+            {% endif %}
+        </div>
+    </div>
+</header>
+
+<section id="news-content" class="container content-section">
+    <div class="row">
+        <div class="col-xs-12">
+            {{ content }}
+        </div>
+    </div>
+</section>

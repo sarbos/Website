@@ -15,6 +15,7 @@ color:
   primary-light: '#ffffff'
   secondary-light: '#eeeeee'
   accent-color: '#5b2c83'
+  accent-light: '#893fc2'
 
 # Nav settings
   
@@ -23,10 +24,15 @@ footer: Ilium VR
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/iliumvr
   - title: facebook
+    icon: fa-facebook
     url: https://www.facebook.com/pages/Ilium-VR/1571378166470461
+  - title: twitter
+    icon: fa-twitter
+    url: https://twitter.com/iliumvr
+  - title: EMail
+    icon: fa-envelope
+    url: mailto:info@iliumvr.com
 
 # Build settings
 markdown: kramdown
