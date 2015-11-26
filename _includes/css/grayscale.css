@@ -339,7 +339,7 @@ a:focus {
 .btn-default:focus {
     border: 1px solid {{ site.color.accent-color }};
     outline: 0;
-    color: {{ site.color.primary-dark }};
+    color: {{ site.color.primary-light }};
     background-color: {{ site.color.accent-color }};
 }
 
