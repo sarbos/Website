@@ -41,7 +41,7 @@ h1, h2, h3 {
 }
 
 h4, h5, h6 {
-    color: #5b2c83;
+    color: #662d91;
     margin: 0 0 20px;
 }
 
@@ -60,7 +60,7 @@ p {
 }
 
 a {
-    color: #5b2c83;
+    color: #662d91;
     -webkit-transition: all .2s ease-in-out;
        -moz-transition: all .2s ease-in-out;
             transition: all .2s ease-in-out;
@@ -308,6 +308,11 @@ a:focus {
     padding-top: 100px;
 }
 
+.content-centered-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 #map {
     width: 100%;
     height: 200px;
@@ -317,6 +322,11 @@ a:focus {
 @media(min-width:980px) {
     .content-section {
         padding-top: 100px;
+    }
+    
+    .content-centered-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     #map {
@@ -335,24 +345,24 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #5b2c83;
-    color: ;
+    border: 1px solid #662d91;
+    color: #363639;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #5b2c83;
+    border: 1px solid #662d91;
     outline: 0;
     color: #ffffff;
-    background-color: #5b2c83;
+    background-color: #662d91;
 }
 
 .btn-primary {
     border: 0;
     outline: 0;
     color: #ffffff;
-    background-color: #5b2c83;
+    background-color: #662d91;
 }
 
 .btn-primary:hover,
@@ -360,7 +370,7 @@ a:focus {
     border: 0;
     outline: 0;
     color: #ffffff;
-    background-color: #893fc2;
+    background-color: #8e45c5;
 }
 
 ul.banner-social-buttons {
@@ -466,6 +476,41 @@ body {
 
 .secondary-content {
 	background-color: #eeeeee;
+}
+
+.accented-header {
+    color: #ffffff;
+}
+
+.accented-content {
+    background-color: #662d91;
+}
+
+.btn-accented {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: #662d91;
+}
+
+.btn-accented:focus,
+.btn-accented:hover {
+    border: 1px solid #ffffff;
+    outline: 0;
+    color: #8e45c5;
+    background-color: #ffffff;
+}
+
+.links-list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: -5px;
+}
+
+.links-list > li {
+    display: block;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
 }
 
 .timeline {
@@ -665,6 +710,11 @@ body {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
     }
+    
+    .links-list > li {
+        display: inline-block;
+        margin-bottom: 0;
+    }
 }
 
 #mailing-list-button {
@@ -684,7 +734,7 @@ body {
     border-radius:4px;
     border-width: 1px;
     border-style: solid;
-    border-color: #5b2c83;
+    border-color: #662d91;
 }
 
 .modal-title {
@@ -692,7 +742,7 @@ body {
 }
 
 .modal-header {
-    background-color: #5b2c83;
+    background-color: #662d91;
 }
 
 .modal-footer {

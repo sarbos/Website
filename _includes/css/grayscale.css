@@ -303,6 +303,11 @@ a:focus {
     padding-top: 100px;
 }
 
+.content-centered-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 #map {
     width: 100%;
     height: 200px;
@@ -312,6 +317,11 @@ a:focus {
 @media(min-width:980px) {
     .content-section {
         padding-top: 100px;
+    }
+    
+    .content-centered-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     #map {
@@ -331,7 +341,7 @@ a:focus {
 
 .btn-default {
     border: 1px solid {{ site.color.accent-color }};
-    color: {{ site.color.links }};
+    color: {{ site.color.primary-medium }};
     background-color: transparent;
 }
 

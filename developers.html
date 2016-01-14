@@ -3,10 +3,10 @@ layout: default
 nav:
  - title: Home
    url: '/'
- - title: Jobs
-   url: '/jobs'
  - title: Developers
    url: '#page-top'
+ - title: News
+   url: '/news'
 ---
 
 <!-- Intro Header -->
@@ -18,6 +18,63 @@ nav:
     </div>
 </header>
 
-<section id="developers-teaser" class="container content-section text-center">
-    <h1>Coming Soon!</h1>
+<section id="developers-quick-download" class="content-centered-section accented-content text-center">
+    <div class="container">
+        <h2 class="accented-header">Quick Links</h2>
+        <ul class="links-list">
+            <li><a href="#" class="btn btn-accented btn-lg light"><i class="fa fa-fw fa-cloud-download"></i> Runtime 0.3 Download</a></li>
+            <li><a href="#" class="btn btn-accented btn-lg light"><i class="fa fa-fw fa-cloud-download"></i> Latest Unity 5 Demo</a></li>
+            <li><a href="#" class="btn btn-accented btn-lg light"><i class="fa fa-fw fa-cloud-download"></i> Latest Unreal Engine 4 Demo</a></li>
+        </ul>
+        <ul class="links-list">
+            <li><a href="docs/" class="btn btn-accented btn-lg light"><i class="fa fa-fw fa-book"></i> View Documentation</a></li>
+            <li><button class="btn btn-accented btn-lg light" type="button" data-toggle="modal" data-target="#mailing-list-modal"><i class="fa fa-fw fa-envelope"></i> Developer Mailing List</button></li>
+        </ul>
+    </div>
 </section>
+
+<section id="dev-main" class="container content-section">
+    {% markdown developers-body.md %}
+</section>
+
+<!-- Mailing list modal -->
+    <div class="modal fade" id="mailing-list-modal" tabindex="-1" role="dialog" aria-labelledby="mailing-list-modal-label">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form action="//iliumvr.us11.list-manage.com/subscribe/post?u=5caf0adc1dea00653c0b947a3&amp;id=6d8ce75f65" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="mailing-list-modal-label">Join the Developer Mailing List</h4>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Begin MailChimp Signup Form -->
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <input type="email" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <input type="text" placeholder="First Name (optional)" value="" name="FNAME" class="" id="mce-FNAME">
+                            </div>
+                            <div class="col-xs-6">
+                                <input type="text" placeholder="Last Name (optional)" value="" name="LNAME" class="" id="mce-LNAME">
+                            </div>
+                        </div>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;"><input type="text" name="b_5caf0adc1dea00653c0b947a3_cb2c97367e" tabindex="-1" value=""></div>
+                        <div class="clear"></div>
+                        <!--End mc_embed_signup-->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+                        <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>

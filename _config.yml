@@ -14,8 +14,8 @@ color:
   primary-medium: '#363639'
   primary-light: '#ffffff'
   secondary-light: '#eeeeee'
-  accent-color: '#5b2c83'
-  accent-light: '#893fc2'
+  accent-color: '#662d91'
+  accent-light: '#8e45c5'
 
 # Nav settings
   
@@ -54,3 +54,11 @@ people:
   pic: 3-min
   position: "COO"
   blurb: "Integer dictum elit eget commodo semper. Vestibulum et nisi eget velit aliquam hendrerit ac sed erat. Morbi pretium eget nisi sit amet commodo. Aliquam commodo ante magna, sed laoreet turpis cursus a."
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      category: news

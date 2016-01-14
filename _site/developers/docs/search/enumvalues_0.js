@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['ivr_5fe_5farg_5fnull',['IVR_E_ARG_NULL',['../group__err.html#gga686f55dcd8879a89c589ddb439546d36acecbac715cb0b31b5a381c2b0d97f9fb',1,'error.h']]],
+  ['ivr_5fe_5farg_5frange',['IVR_E_ARG_RANGE',['../group__err.html#gga686f55dcd8879a89c589ddb439546d36a4729b36e5510340712fa78bbd00cfff0',1,'error.h']]],
+  ['ivr_5fe_5ffile_5fopen',['IVR_E_FILE_OPEN',['../group__err.html#gga686f55dcd8879a89c589ddb439546d36a47cd9825638b065520197e76b8e35667',1,'error.h']]],
+  ['ivr_5fe_5fhid',['IVR_E_HID',['../group__err.html#gga686f55dcd8879a89c589ddb439546d36a1d2bd2e80acc2267ce00e047b1f59418',1,'error.h']]],
+  ['ivr_5fe_5fno_5fdevice',['IVR_E_NO_DEVICE',['../group__err.html#gga686f55dcd8879a89c589ddb439546d36ac1222f0c40068d8a91a2e929b6d6b945',1,'error.h']]],
+  ['ivr_5fe_5fok',['IVR_E_OK',['../group__err.html#gga686f55dcd8879a89c589ddb439546d36a376e5a5cb117d0a11dd022c6e63b99ab',1,'error.h']]],
+  ['ivr_5fe_5fos',['IVR_E_OS',['../group__err.html#gga686f55dcd8879a89c589ddb439546d36a5aa4bd3de7ec523ed48391ef7c9372ae',1,'error.h']]],
+  ['ivr_5fe_5fout_5fof_5fmem',['IVR_E_OUT_OF_MEM',['../group__err.html#gga686f55dcd8879a89c589ddb439546d36ac0e9247b00a008a717388be564d3c915',1,'error.h']]],
+  ['ivr_5fe_5fpipe_5fcreate',['IVR_E_PIPE_CREATE',['../group__err.html#gga686f55dcd8879a89c589ddb439546d36a8e34f55f820399d5d979561c29132b10',1,'error.h']]],
+  ['ivr_5fe_5fpipe_5finvalid_5fop',['IVR_E_PIPE_INVALID_OP',['../group__err.html#gga686f55dcd8879a89c589ddb439546d36a28fd64aa6de2a37cbb7a54b8da873609',1,'error.h']]],
+  ['ivr_5fe_5fruntime_5ffailure',['IVR_E_RUNTIME_FAILURE',['../group__err.html#gga686f55dcd8879a89c589ddb439546d36a0a9d9fc8b433aae2662bf6a058300e8b',1,'error.h']]],
+  ['ivr_5fe_5fserial',['IVR_E_SERIAL',['../group__err.html#gga686f55dcd8879a89c589ddb439546d36aabe95f1c39ce4775194418f354ce2ec5',1,'error.h']]],
+  ['ivr_5fe_5ftimeout',['IVR_E_TIMEOUT',['../group__err.html#gga686f55dcd8879a89c589ddb439546d36af87b035ed54332308cd03a5d6943cb8f',1,'error.h']]],
+  ['ivr_5fruntime_5fmode_5fcalibration',['IVR_RUNTIME_MODE_CALIBRATION',['../group__rt.html#ggad5a2f9f5dc7eb32ec94ff14ea3be36eba4ce8487a3d27ddd9552e3675f7bc39fc',1,'runtime.h']]],
+  ['ivr_5fruntime_5fmode_5fcapture',['IVR_RUNTIME_MODE_CAPTURE',['../group__rt.html#ggad5a2f9f5dc7eb32ec94ff14ea3be36eba54f2e493477d6db396fd4f409403b776',1,'runtime.h']]],
+  ['ivr_5fruntime_5fmode_5fdebug',['IVR_RUNTIME_MODE_DEBUG',['../group__rt.html#ggad5a2f9f5dc7eb32ec94ff14ea3be36eba34dfa4cdd387219bc7bd39a0af370170',1,'runtime.h']]],
+  ['ivr_5fruntime_5fmode_5fgame',['IVR_RUNTIME_MODE_GAME',['../group__rt.html#ggad5a2f9f5dc7eb32ec94ff14ea3be36ebaa328937fcfd2e9660a5899826467d9e9',1,'runtime.h']]],
+  ['ivr_5fruntime_5fmode_5fraw',['IVR_RUNTIME_MODE_RAW',['../group__rt.html#ggad5a2f9f5dc7eb32ec94ff14ea3be36eba240972f35b86d03bdd010fcca30fdf4c',1,'runtime.h']]],
+  ['ivr_5fruntime_5fopt_5fcam_5faccel_5ffuse',['IVR_RUNTIME_OPT_CAM_ACCEL_FUSE',['../group__rt.html#gga29fded8f3ec9d2b78d73da9245d3ae8aa1d8ffd964c2229ed5bc308263651d7ab',1,'runtime.h']]],
+  ['ivr_5fruntime_5fopt_5fdefault',['IVR_RUNTIME_OPT_DEFAULT',['../group__rt.html#gga29fded8f3ec9d2b78d73da9245d3ae8aa394860b243ade32613999d5d69b671a7',1,'runtime.h']]],
+  ['ivr_5fruntime_5fopt_5fuse_5faccel',['IVR_RUNTIME_OPT_USE_ACCEL',['../group__rt.html#gga29fded8f3ec9d2b78d73da9245d3ae8aafed699dcd3f719a2047f311e33b710fa',1,'runtime.h']]],
+  ['ivr_5fruntime_5fopt_5fuse_5fcam',['IVR_RUNTIME_OPT_USE_CAM',['../group__rt.html#gga29fded8f3ec9d2b78d73da9245d3ae8aad04930dfba9e90e651e4baa2706629a5',1,'runtime.h']]],
+  ['ivr_5fruntime_5fopt_5fuse_5fcontrols',['IVR_RUNTIME_OPT_USE_CONTROLS',['../group__rt.html#gga29fded8f3ec9d2b78d73da9245d3ae8aa0f39f9f54fa6b15d9c3fdc3bb254f518',1,'runtime.h']]],
+  ['ivr_5fruntime_5fopt_5fuse_5fgyro',['IVR_RUNTIME_OPT_USE_GYRO',['../group__rt.html#gga29fded8f3ec9d2b78d73da9245d3ae8aa849cf10e22717f5b43fc198740e21f74',1,'runtime.h']]],
+  ['ivr_5fruntime_5fopt_5fuse_5fmag',['IVR_RUNTIME_OPT_USE_MAG',['../group__rt.html#gga29fded8f3ec9d2b78d73da9245d3ae8aa3f7f9a82e813a35c999ac565b23e8560',1,'runtime.h']]]
+];
