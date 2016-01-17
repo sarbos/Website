@@ -1,35 +1,22 @@
-# Pilot Program
+# Ilium Developer Program
 
-Description of the pilot program goes here.
+Ilium VR is launching a devloper program for game developers interested in creating games and applications for our controllers. We want to see what experiences you can create with our system, while helping us find potential bugs.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in nunc
-euismod, eleifend sapien in, consectetur nulla. Quisque dictum metus eu
-ullamcorper interdum. Vestibulum eu nibh aliquet, vulputate urna non, faucibus
-mi. Duis vehicula congue magna, eu euismod mauris vestibulum ut. Integer
-maximus pulvinar metus interdum malesuada. Quisque vel dictum lorem, sed
-laoreet enim. Donec ullamcorper, enim malesuada sagittis vehicula, nunc mi
-fringilla augue, a molestie tortor quam vel tellus. Aenean odio enim, bibendum
-a tortor nec, tempor pretium velit. Fusce eget libero blandit purus porta
-pharetra. Mauris condimentum id mi at accumsan. Sed feugiat, ligula ac rhoncus
-rutrum, lorem sem posuere velit, in gravida erat ante a nunc. Praesent iaculis
-egestas sagittis. Nullam ultricies tincidunt quam, id ornare ante molestie in.
+The development kit will include a gun controller, an optical tracker, and a mount for use with an Oculus Rift. You will get full hardware and software support as well as access to our bug reporting and feature request system.
 
-Ut at massa at lectus vestibulum consectetur. Cras ipsum sapien, auctor mattis
-bibendum ut, vehicula in nisl. In suscipit, ipsum pellentesque convallis
-hendrerit, nibh turpis rhoncus libero, vitae porttitor libero orci sit amet
-sem. Sed eget eros imperdiet, gravida erat eu, aliquet lacus. Donec at pretium
-dolor, non porta est. Integer urna turpis, vulputate ac lacus nec, sagittis
-fringilla sem. Morbi vel tellus sit amet elit placerat molestie eu at ex.
-Praesent rutrum augue non lectus aliquam efficitur. Donec ipsum nibh,
-pellentesque eu odio eu, fringilla malesuada urna. Aliquam lobortis sodales
-diam, maximus dignissim dui accumsan non. Aenean aliquam tincidunt urna, vel
-posuere mauris malesuada quis. Integer scelerisque ultrices ipsum ac
-ullamcorper. Etiam suscipit posuere dolor, eu venenatis mauris tincidunt at.
-Sed congue, nunc eget luctus sollicitudin, nisi est pretium mi, ac vehicula
-nisi enim vel lorem.
-
-[Sign up!](mailto:info@iliumvr.com?subject=I'd like to join the pilot program){: .btn .btn-default .btn-lg }
+[Sign up!](mailto:info@iliumvr.com?subject=I'd like to join the developer program){: .btn .btn-default .btn-lg }
 {: .text-center }
+
+# FAQ
+
+###### I am not making a VR game/I dont have a VR headset. Can I still join the program?
+Yes! Our system is designed to be used both with and without VR. We prefer applications using VR, but if you have a good idea we want to hear it.
+
+###### What game engines are supported?
+The Ilium VR SDK fully supports Unreal Engine 4 and Unity 5. We will be working on a Source engine integration as well.
+
+###### What platforms are supported?
+The Ilium Runtime is currently only on Windows 7 and up. Linux support is on our roadmap for the future.
 
 # Downloads
 
